@@ -1,52 +1,65 @@
-# Portfólio — Vinícius Nucci Galvão
+📐 Portfólio — Vinícius Nucci Galvão
 
-React + Vite + TailwindCSS v4.
+Portfólio pessoal desenvolvido para apresentar minha trajetória, experiência atual e projetos — construído com React, Vite e TailwindCSS v4.
 
-## Rodar localmente
+🔗 Acesse online: [em breve — link após o deploy]
 
-```bash
+Mostrar Imagem Mostrar Imagem Mostrar Imagem
+
+📋 Sobre
+
+Estudante de Análise e Desenvolvimento de Sistemas (Facens, formatura prevista para 2027) e estagiário no time de Produtos da Alumisoft, onde atuo com análise de sistemas e relatórios para um ERP voltado ao mercado de esquadrias de alumínio.
+
+Este portfólio reúne minha experiência profissional, formação acadêmica e os projetos pessoais que venho desenvolvendo para praticar e demonstrar habilidades em desenvolvimento full-stack.
+
+🎨 Identidade visual
+
+O design é inspirado no universo do desenho técnico/industrial — referência direta ao contexto de esquadrias e engenharia com o qual trabalho no dia a dia. Elementos como o "carimbo" de projeto no início da página e os divisores no estilo linha de cota reforçam essa identidade.
+
+🛠️ Tecnologias
+React — biblioteca para construção da interface
+Vite — build tool e servidor de desenvolvimento
+TailwindCSS v4 — estilização utilitária
+📂 Estrutura do projeto
+src/
+├── components/
+│   ├── Nav.jsx          # Navegação
+│   ├── Hero.jsx         # Apresentação inicial
+│   ├── Sobre.jsx        # Sobre mim
+│   ├── Experiencia.jsx  # Experiência profissional (Alumisoft)
+│   ├── Estudos.jsx      # Formação acadêmica (Facens)
+│   ├── Projetos.jsx     # Projetos pessoais
+│   └── Contato.jsx      # Links de contato
+├── App.jsx
+├── main.jsx
+└── index.css            # Tokens de cor e tipografia (Tailwind @theme)
+🚀 Como rodar localmente
+
+Pré-requisitos: Node.js instalado.
+
+bash
+# Clone o repositório
+git clone https://github.com/nuccivn/PortifolioNucci.git
+cd PortifolioNucci/portfolio
+
+# Instale as dependências
 npm install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-```
 
-Abre em `http://localhost:5173`.
+Acesse em http://localhost:5173.
 
-## Editar conteúdo
-
-Cada seção é um componente em `src/components/`:
-
-- `Hero.jsx` — apresentação
-- `Sobre.jsx` — sobre você
-- `Experiencia.jsx` — Alumisoft
-- `Estudos.jsx` — Facens / ADS
-- `Projetos.jsx` — lista de projetos (array `projetos` no topo do arquivo)
-- `Contato.jsx` — links de contato (array `contatos` — **troque as URLs placeholder pelas suas**)
-
-Cores e fontes ficam centralizadas em `src/index.css`, no bloco `@theme`.
-
-## Build de produção
-
-```bash
+📦 Build de produção
+bash
 npm run build
-```
 
-Gera a pasta `dist/`, pronta para deploy.
+Gera a pasta dist/, pronta para deploy.
 
-## Deploy gratuito
+☁️ Deploy
 
-**Vercel** (recomendado para projetos Vite):
-1. Suba o projeto para um repositório no GitHub.
-2. Em vercel.com, "New Project" → importe o repositório.
-3. Vercel detecta Vite automaticamente (build command `npm run build`, output `dist`).
+Hospedado na Vercel, com deploy automático a cada push na branch main.
 
-**GitHub Pages** (alternativa):
-```bash
-npm install -D gh-pages
-```
-Adicione ao `package.json`:
-```json
-"scripts": {
-  "deploy": "vite build && gh-pages -d dist"
-}
-```
-Depois rode `npm run deploy`.
+📬 Contato
+GitHub: @nuccivn
+LinkedIn: [em breve]
